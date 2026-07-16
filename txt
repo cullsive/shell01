@@ -1,0 +1,87 @@
+🟩 Ex01 — print_groups.sh
+✔ Test
+Code
+export FT_USER=$USER
+bash print_groups.sh
+✔ Ce que tu dois voir
+Une liste de groupes séparés par des virgules.
+
+🟩 Ex02 — find_sh.sh
+✔ Test
+Crée quelques fichiers :
+
+Code
+touch a.sh b.sh c.sh
+Puis :
+
+Code
+bash find_sh.sh
+✔ Ce que tu dois voir
+Code
+a
+b
+c
+🟩 Ex03 — count_files.sh
+✔ Test
+Code
+bash count_files.sh
+✔ Ce que tu dois voir
+Un nombre (peu importe lequel).
+
+🟩 Ex04 — MAC.sh
+✔ Test
+Code
+bash MAC.sh
+✔ Ce que tu dois voir
+Des adresses MAC (si ifconfig est installé).
+Si rien ne s’affiche → normal sur WSL, la moulinette verra les MAC.
+
+🟩 Ex05 — "\?
+∗
+′
+𝑀
+𝑎
+𝑅
+𝑉
+𝑖
+𝑁
+′
+∗
+?\"
+✔ Test
+Afficher le contenu :
+
+Code
+cat "\"\?\$*'MaRViN'*\$\?\\\""
+✔ Ce que tu dois voir
+Code
+42
+🟩 Ex06 — skip.sh
+✔ Test
+Code
+bash skip.sh
+✔ Ce que tu dois voir
+Une ligne sur deux de ls -l.
+
+🟩 Ex07 — r_dwssap.sh
+✔ Test
+Code
+bash r_dwssap.sh
+✔ Ce que tu dois voir
+Une liste bizarre de logins inversés, séparés par des virgules, finissant par un point.
+Le résultat est différent sur chaque machine, c’est normal.
+
+🟩 Résumé ultra‑rapide pour l’évaluateur
+Ex01 → groupes
+
+Ex02 → fichiers .sh sans extension
+
+Ex03 → compter fichiers/dossiers
+
+Ex04 → MAC
+
+Ex05 → fichier spécial contenant 42
+
+Ex06 → une ligne sur deux
+
+Ex07 → transformation de /etc/passwd
